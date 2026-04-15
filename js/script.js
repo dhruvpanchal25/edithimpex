@@ -84,16 +84,20 @@ animatedElements.forEach(el => {
 
 // ============ email js ============
 (function(){
-  emailjs.init("YOUR_PUBLIC_KEY");
+  emailjs.init("Gez_nJmnflXO6JqAE");
 })();
 
 document.getElementById("contactForm").addEventListener("submit", function(e) {
   e.preventDefault();
 
-  emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+  emailjs.sendForm("service_nukn6ed", "template_34ltszm", this)
     .then(() => {
       alert("Message Sent ✅");
-    }, (error) => {
+      document.getElementById("contactForm").reset();
+    })
+    .catch((error) => {
       alert("Error ❌ " + error.text);
+      console.log(error);
     });
-});
+
+}); // ✅ THIS WAS MISSING
