@@ -341,12 +341,13 @@ about section
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-bottom: 7px;
   font-size: 18px;
 }
 
 /* ICON STYLE */
 .about-card h3 i {
-background: rgba(39, 101, 202, 0.421);
+  background: rgba(39, 101, 202, 0.421);
   padding: 6px;
   border-radius: 6px;
   font-size: 16px;
