@@ -100,4 +100,4 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
       console.log(error);
     });
 
-}); // ✅ THIS WAS MISSING
+});
