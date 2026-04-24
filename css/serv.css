@@ -285,7 +285,7 @@ footer section
 /* ================= HERO ================= */
 .service-hero {
   height: 100vh;
-  background: url('asset/image/servicebg.png') center/cover no-repeat;
+  background: url('../asset/image/servicebg.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
